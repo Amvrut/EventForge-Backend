@@ -1,0 +1,29 @@
+{
+  "name": "eventforge-backend",
+  "version": "1.0.0",
+  "description": "Secure Node.js & Express Backend for EventForge with Razorpay Orders API, HMAC signature verification, and atomic database persistence.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.5"
+  },
+  "keywords": [
+    "eventforge",
+    "event-booking",
+    "express",
+    "razorpay",
+    "node",
+    "tickets",
+    "security"
+  ],
+  "author": "EventForge Team",
+  "license": "ISC"
+}

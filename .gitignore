@@ -1,0 +1,27 @@
+# Backend dependencies
+node_modules/
+
+# Secrets & Environment variables (CRITICAL: Never expose API keys)
+.env
+.env.local
+.env.production
+*.env
+
+# SQLite and persistent database data files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+push_to_github.bat
+
